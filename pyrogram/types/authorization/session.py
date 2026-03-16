@@ -1,4 +1,4 @@
-#  navygram - Telegram MTProto API Client Library for Python
+#   pyrogram - Telegram MTProto API Client Library for Python
 #  Copyright (C) 2023-present pyrogram <https://pyrogram.org>
 #
 #  This file is part of pyrogram.

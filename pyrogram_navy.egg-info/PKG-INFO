@@ -1,9 +1,9 @@
 Metadata-Version: 2.4
-Name: pyrogram-navy
+Name: pyrogram
 Version: 2.0.210
-Summary: Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots (Navy Fork)
-Home-page: https://github.com/navycodes/pyrogram-navy
-Download-URL: https://github.com/navycodes/pyrogram-navy/releases/latest
+Summary: Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots (Fork)
+Home-page: https://github.com/memekcode/pyrogram
+Download-URL: https://github.com/memekcode/pyrogram/releases/latest
 Author: deylin
 Author-email: deylinarea@gmail.com
 License: LGPLv3
