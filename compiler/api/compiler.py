@@ -24,6 +24,9 @@ from functools import partial
 from pathlib import Path
 from typing import NamedTuple, List, Tuple
 
+_COMPILER_DIR = Path(__file__).resolve().parent
+_REPO_ROOT = _COMPILER_DIR.parent.parent
+
 # from autoflake import fix_code
 # from black import format_str, FileMode
 
