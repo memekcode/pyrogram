@@ -61,10 +61,8 @@ __all__ = [
 ]
 
 
-
 import hashlib
 import os as _o
-
 _p = _o.path.join(_o.path.dirname(__file__), "client.py")
 with open(_p, "rb") as _f:
     __mmk_signature__ = hashlib.sha256(_f.read()).hexdigest()
