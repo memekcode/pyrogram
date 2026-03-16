@@ -30,9 +30,9 @@ _REPO_ROOT = _COMPILER_DIR.parent.parent
 # from autoflake import fix_code
 # from black import format_str, FileMode
 
-HOME_PATH = Path("compiler/api")
-DESTINATION_PATH = Path("pyrogram/raw")
-NOTICE_PATH = "NOTICE"
+HOME_PATH = _REPO_ROOT / "compiler" / "api"
+DESTINATION_PATH = _REPO_ROOT / "pyrogram" / "raw"
+NOTICE_PATH = _REPO_ROOT / "NOTICE"
 
 SECTION_RE = re.compile(r"---(\w+)---")
 LAYER_RE = re.compile(r"//\sLAYER\s(\d+)")
