@@ -64,7 +64,8 @@ namespaces_to_constructors = {}
 namespaces_to_functions = {}
 
 try:
-    with open("docs.json") as f:
+    with open(_REPO_ROOT / "docs.json") as f:
+    #with open("docs.json") as f:
         docs = json.load(f)
 except FileNotFoundError:
     docs = {
